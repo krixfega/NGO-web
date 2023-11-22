@@ -43,8 +43,8 @@
 }
 
 .btn.btn-primary:hover {
-    color: var(--secondary);
-    background: #fffff9;
+    color: var(--dark);
+    background: #e21824;
 }
 
 .btn-square {
