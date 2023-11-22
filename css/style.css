@@ -1,5 +1,5 @@
 :root {
-    --primary: #FFD300;
+    --primary: #e21824;
     --secondary: #000000;
     --light: #F8F8F9;
     --dark: #001D23;
@@ -33,8 +33,8 @@
 .btn {
     font-weight: 500;
     transition: .5s;
-    background: #FFD300;
-    border: #FFD300;
+    background: #e21824;
+    border: #e21824;
 }
 
 .btn.btn-primary,
@@ -72,6 +72,9 @@
     font-weight: normal;
 }
 
+.logo {
+    width:100px;
+}
 
 /*** Navbar ***/
 .fixed-top {
