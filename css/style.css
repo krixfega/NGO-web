@@ -2,7 +2,7 @@
     --primary: #e21824;
     --secondary: #000000;
     --light: #F8F8F9;
-    --dark: #001D23;
+    --dark: #000;
 }
 
 .back-to-top {
@@ -266,48 +266,11 @@
 }
 
 
-/*** Team ***/
-.team-item img {
-    position: relative;
-    top: 0;
-    transition: .5s;
+/*** Event ***/
+#event{
+    height: auto;
 }
-
-.team-item:hover img {
-    top: -30px;
-}
-
-.team-item .team-text {
-    position: relative;
-    height: 100px;
-    transition: .5s;
-}
-
-.team-item:hover .team-text {
-    margin-top: -60px;
-    height: 160px;
-}
-
-.team-item .team-text .team-social {
-    opacity: 0;
-    transition: .5s;
-}
-
-.team-item:hover .team-text .team-social {
-    opacity: 1;
-}
-
-.team-item .team-social .btn {
-    display: inline-flex;
-    color: var(--primary);
-    background: #FFFFFF;
-    border-radius: 40px;
-}
-
-.team-item .team-social .btn:hover {
-    color: #FFFFFF;
-    background: var(--primary);
-}
+  
 
 
 /*** Testimonial ***/
@@ -432,8 +395,8 @@
 }
 
 .footer .btn.btn-square {
-    color: rgba(255,255,255,0.5);
-    border: 1px solid rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(194, 150, 150, 0.5);
 }
 
 .footer .btn.btn-square:hover {
