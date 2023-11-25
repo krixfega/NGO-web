@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ChariTeam - Free Nonprofit Website Template</title>
+    <title>Ologodidan Jezi Foundation</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -58,6 +58,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
                 <img src="/img/ologoo.png" class="logo">
+                <!-- <h1 class="fw-bold text-primary m-0">Ologo<span class="text-white"> Jezi</span></h1> -->
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -66,16 +67,17 @@
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="about.html" class="nav-item nav-link">Who we are</a>
                     <a href="service.html" class="nav-item nav-link">What we do</a>
-                    <a href="causes.html" class="nav-item nav-link">Our Projects</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <a href="#" class="nav-item nav-link">Our Projects</a>
+                    <!-- <a href="#event" class="nav-item nav-link">Events</a> -->
+                    <a href="#" class="nav-item nav-link">Contact Us</a>
                 </div>
                 <div class="d-none d-lg-flex ms-2">
-                    <a class="btn btn-outline-secondary text-dark py-2 px-3" href="">
+                    <button class="btn btn-outline-secondary text-light py-3 px-4 " onclick="makePayment()">
                         Donate Now
-                        <div class="d-inline-flex btn-sm-square bg-white text-dark rounded-circle ms-2">
+                        <!-- <div class="d-inline-flex btn-sm-square bg-white text-dark rounded-circle ms-2" >
                             <i class="fa fa-arrow-right"></i>
-                        </div>
-                    </a>
+                        </div> -->
+                    </button>
                 </div>
             </div>
         </nav>
@@ -86,106 +88,80 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">Service</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Service</li>
-                </ol>
-            </nav>
+            <h1 class="display-4 text-white animated slideInDown mb-4">Areas we cover</h1>
+            
         </div>
     </div>
     <!-- Page Header End -->
 
 
-    <!-- Service Start -->
+    <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">What We Do</div>
-                <h1 class="display-6 mb-5">Learn More What We Do And Get Involved</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
-                        <h4 class="mb-3">Child Education</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                        <a class="btn btn-outline-primary px-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-500 pt-5 pe-5" src="img/ceo.jpeg" alt="" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
-                        <h4 class="mb-3">Medical Treatment</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                        <a class="btn btn-outline-primary px-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
-                        <h4 class="mb-3">Pure Drinking Water</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.</p>
-                        <a class="btn btn-outline-primary px-3" href="">
-                            Learn More
-                            <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">The Foundation</div>
+                        <h1 class="display-6 mb-5">Called forth to transform lives </h1>
+                        <div class="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
+                            <p class="text-dark mb-2">The Ologodidan Jezi Foundation is established to further advance the Humanitarian Services towards the Vulnerable in our Society, embarked upon by Evangelist Rachael Ologodidan over the years in FCT and across the South -West and North Central States of Nigeria.
+                                President of Ologodidan Multi -Purpose Cooperative Society Limited in
+                                Kwara State, Abuja and Lagos State. Through Hard -work, Diligent and Heart of Kindness, the Cooperative Society grew into a Group of Companies like Ologodidan Multiservice Limited which she's also the MD/CEO.
+                                </p>
+                        </div>
+                        <p class="mb-5">Evangelist Rachael is a Woman full of compassion. Many Lives of less privileged persons have been touched and changed by her.
+                            To God be the Glory that an Orphan like her is today feeding and clothing many Orphans. Widows, Elderly and Physically Challenged Persons are not left out in her empowerment programmes. She has paid School fees for the less privileged, in Eti -Osa, Epe, Lagos Island, Ibeju — Lekki, Ikeja and Alimosho LGAs of Lagos State as well as FCT, Ogun, Kwara, Osun and Oyo States. She has visited Kirikiri Correctional Centre in Lagos and Kuje Correctional Centre in Abuja with food for the Inmates. She is a Giver! She is a Bridge -Builder! She is a Beacon of Hope to the future generation!
+                            Evangelist Racheal has empowered the poor with Buses, Tricycles (Keke Napep), Household items like Deep Freezers, Plasma Televisions, etc. to make life better for them.
+                            Two years ago, over 200 Persons in Ikotun, Lagos State were fed through her Foundation In addition, Widows have received money to start micro businesses to help their Families. Through her benevolence, troubled marriages and homes have been re-united</p>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service End -->
-        
+    <!-- About End -->
+    
 
-     <!-- Footer Start -->
-     <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+
+         <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h1 class="fw-bold text-primary mb-4">Ologodidan Jezi<span class="text-white"> Foundation</span></h1>
-                    <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                <div class="col-lg-3 col-md-3">
+                    <img src="/img/ologoo.png" class="logo">
+                    <p class="text-white">Welcome to Ologodidan Jevi Foundation, a Non Governmental Organization where every act of kindness creates ripples of change. Join us as we build a brighter and more equitable world together.</p>
+                    <div class="d-flex  pt-2">
+                        <a class="btn bg-transparent text-white me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn bg-transparent text-white me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn bg-transparent text-white me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn bg-transparent text-white me-0" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-3">
                     <h5 class="text-light mb-4">Address</h5>
                     <p><i class="fa fa-map-marker-alt me-3"></i>lekki, Lagoos, Nigeria</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa text-light fa-phone-alt me-3"></i>+234 1345 6790</p>
                     <p><i class="fa fa-envelope me-3"></i>info@ologodidanfoundation.org</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-3">
                     <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <a class="btn bg-transparent btn-link" href="">About Us</a>
+                    <a class="btn bg-transparent btn-link" href="">Contact Us</a>
+                    <a class="btn bg-transparent btn-link" href="">Our Services</a>
+                    <a class="btn bg-transparent btn-link" href="">Terms & Condition</a>
+                    <a class="btn bg-transparent btn-link" href="">Support</a>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-3">
                     <h5 class="text-light mb-4">Newsletter</h5>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Be the first to get reports of happenings </p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <button type="button" class="btn btn-secondary text-white py-2 position-absolute top-0 end-0 mt-2 me-2">Join</button>
                     </div>
                 </div>
             </div>
@@ -194,7 +170,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Ologodidan Jezi Foundation</a>, All Right Reserved. 2023
+                        All Right Reserved  &copy; 2023 <a href="#" class="text-light">Ologodidan Jezi Foundation</a>
                     </div>
                     
                 </div>
@@ -217,7 +193,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/parallax/parallax.min.js"></script>
 
-    <!-- Template Javascript -->
+    <!-- Javascript -->
     <script src="js/main.js"></script>
 </body>
 
