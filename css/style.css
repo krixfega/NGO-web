@@ -252,6 +252,71 @@
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .06);
 }
+.service-item {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+  }
+  
+  .service-item h1,
+  .service-item h2,
+  .service-item h3,
+  .service-item h4,
+  .service-item h5,
+  .service-item h6 {
+    color: #3e4555;
+  }
+  
+  .service-item h5 {
+      font-size: 18px;
+  }
+  
+  .service-item .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+  }
+  
+  .service-item .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  }
+  
+  .service-item .max-600 {
+      max-width: 600px;
+  }
+  
+  .service-item .btn-info-gradiant {
+      background: #188ef4;
+      background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+      background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+      background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+      background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+      border: 0px;
+      color: #ffffff;
+  }
+  
+  .service-item .btn-md {
+      padding: 15px 35px;
+      font-size: 16px;
+  }
+  
+  .service-item .text-success-gradiant {
+      background: #2cdd9b;
+      background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+      background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+      background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+      background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-fill-color: transparent;
+  }
+  
+  .service-item .display-5 {
+      font-size: 2.5rem;
+  }
 
 
 /*** Donate ***/
