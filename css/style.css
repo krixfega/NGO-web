@@ -317,7 +317,11 @@
   .service-item .display-5 {
       font-size: 2.5rem;
   }
-
+  @media (max-width: 768px){
+    .one {
+      order: 1;  
+    }
+  }
 
 /*** Donate ***/
 .donate {
